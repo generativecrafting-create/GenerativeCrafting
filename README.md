@@ -17,12 +17,21 @@ assets/img/           Bilder, Logo, Favicon
 ## Was du noch anpassen solltest
 
 ### 1. Logo & Favicon
-`assets/img/logo-placeholder.svg` ist ein Platzhalter. Ersetze die Datei
-durch dein echtes Logo (idealerweise als SVG oder PNG mit transparentem
-Hintergrund) und aktualisiere den Dateinamen in `index.html`:
+`assets/img/logo-mark.svg` (helle Variante für den dunklen Header) und
+`assets/img/logo-mark-dark.svg` (dunkle Variante für helle Hintergründe,
+z.B. Print/Docs) sind eine **nachgebaute Annäherung** an das im Chat
+geteilte Logo (Hexagon mit Cube-/Molekül-Motiv). Die Cloud-Umgebung hatte
+keinen Dateizugriff auf das eingefügte Bild, daher wurde die Grafik als
+Vektor nachgebaut statt 1:1 übernommen.
+
+Sobald du die Originaldatei per Link (z.B. Google Drive, Dropbox,
+GitHub-Issue-Anhang) bereitstellen kannst, ersetze einfach
+`assets/img/logo-mark.svg` durch dein echtes Logo (idealerweise als SVG
+oder PNG mit transparentem Hintergrund) — der Dateiname in `index.html`
+kann gleich bleiben:
 
 ```html
-<img src="assets/img/logo-placeholder.svg" alt="Generative Crafting Logo" class="brand-logo">
+<img src="assets/img/logo-mark.svg" alt="Generative Crafting Logo" class="brand-logo">
 ```
 
 `assets/img/favicon.svg` kannst du ebenfalls durch eine eigene Version

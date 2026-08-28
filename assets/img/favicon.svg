@@ -1,5 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6a3d"/>
+      <stop offset="100%" stop-color="#00d9c0"/>
+    </linearGradient>
+  </defs>
   <rect width="64" height="64" rx="12" fill="#0a0e14"/>
-  <polygon points="32,8 52,20 52,44 32,56 12,44 12,20" fill="none" stroke="#ff6a3d" stroke-width="3"/>
-  <circle cx="32" cy="32" r="6" fill="#00d9c0"/>
+  <polygon points="32,10 50,20.5 50,41.5 32,52 14,41.5 14,20.5" fill="none" stroke="url(#favGrad)" stroke-width="2.4"/>
+  <g fill="none" stroke="#e8edf4" stroke-width="1.4" stroke-linecap="round">
+    <path d="M32,23 L23,28 M32,23 L41,28"/>
+    <path d="M23,28 L32,33 M41,28 L32,33"/>
+    <path d="M23,28 L23,38 M41,28 L41,38"/>
+    <path d="M32,33 L32,43"/>
+    <path d="M23,38 L32,43 M41,38 L32,43"/>
+  </g>
+  <circle cx="32" cy="33" r="2.2" fill="#00d9c0"/>
 </svg>
