@@ -10,6 +10,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<script>
+  (function () {
+    var stored = localStorage.getItem("gc-theme");
+    var theme = stored || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+</script>
 </head>
 <body>
 
@@ -18,7 +25,41 @@
 <header class="site-header">
   <div class="container header-inner">
     <a href="#top" class="brand">
-      <img src="assets/img/logo-mark.svg" alt="Generative Crafting Logo" class="brand-logo">
+      <svg class="brand-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Generative Crafting Logo">
+        <defs>
+          <linearGradient id="gcMarkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ff6a3d"/>
+            <stop offset="100%" stop-color="#00d9c0"/>
+          </linearGradient>
+        </defs>
+        <polygon points="32,3 58,17.5 58,46.5 32,61 6,46.5 6,17.5" fill="none" stroke="url(#gcMarkGrad)" stroke-width="2.2"/>
+        <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+          <path d="M32,18 L18,26 M32,18 L46,26"/>
+          <path d="M18,26 L32,34 M46,26 L32,34"/>
+          <path d="M18,26 L18,42 M46,26 L46,42"/>
+          <path d="M32,34 L32,50"/>
+          <path d="M18,42 L32,50 M46,42 L32,50"/>
+        </g>
+        <g stroke="#00a893" stroke-width="1.3" stroke-linecap="round">
+          <path d="M32,18 L32,9"/>
+          <path d="M18,26 L9,22"/>
+          <path d="M46,42 L54,48"/>
+        </g>
+        <g fill="currentColor">
+          <circle cx="32" cy="18" r="1.6"/>
+          <circle cx="18" cy="26" r="1.6"/>
+          <circle cx="46" cy="26" r="1.6"/>
+          <circle cx="32" cy="34" r="1.6"/>
+          <circle cx="18" cy="42" r="1.6"/>
+          <circle cx="46" cy="42" r="1.6"/>
+          <circle cx="32" cy="50" r="1.6"/>
+        </g>
+        <g fill="#00a893">
+          <circle cx="32" cy="9" r="2.6"/>
+          <circle cx="9" cy="22" r="2.6"/>
+          <circle cx="54" cy="48" r="2.6"/>
+        </g>
+      </svg>
       <span class="brand-name">Generative<br><span class="accent">Crafting</span></span>
     </a>
 
@@ -31,6 +72,10 @@
     </nav>
 
     <div class="header-actions">
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Hell/Dunkel umschalten">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+      </button>
       <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Sprache wechseln">
         <span class="lang-current">DE</span>/<span class="lang-other">EN</span>
       </button>
@@ -117,16 +162,16 @@
           </div>
           <h3 data-i18n="portfolio.item2.title">Zierleisten-Clip (W124)</h3>
           <p class="tag-row"><span class="tag" data-i18n="portfolio.item2.tag1">PETG</span><span class="tag" data-i18n="portfolio.item2.tag2">Reverse Engineering</span></p>
-          <p data-i18n="portfolio.item2.desc">Abgebrochener Zierleisten-Clip eines Mercedes W124 nachkonstruiert und in PETG nachgedruckt.</p>
+          <p data-i18n="portfolio.item2.desc">Ein nicht mehr lieferbarer Zierleisten-Clip für einen Mercedes W124 wurde vermessen, in CAD nachkonstruiert und als passgenaues Ersatzteil in PETG gefertigt.</p>
         </article>
 
         <article class="portfolio-card">
           <div class="portfolio-thumb">
-            <img src="assets/img/portfolio-lampe.jpg" alt="3D-gedruckte Wandleuchte mit Wellenstruktur, warmweiß beleuchtet, aus PLA">
+            <img src="assets/img/portfolio-lampe.jpg" alt="3D-gedruckte Tischlampe mit Wellenstruktur, warmweiß beleuchtet, aus PLA">
           </div>
-          <h3 data-i18n="portfolio.item3.title">Wellen-Wandleuchte</h3>
+          <h3 data-i18n="portfolio.item3.title">Wellen-Tischlampe</h3>
           <p class="tag-row"><span class="tag" data-i18n="portfolio.item3.tag1">PLA</span><span class="tag" data-i18n="portfolio.item3.tag2">Unikat</span></p>
-          <p data-i18n="portfolio.item3.desc">Wandleuchte mit organischer Wellenstruktur, gedruckt in PLA und stimmungsvoll in Szene gesetzt.</p>
+          <p data-i18n="portfolio.item3.desc">Tischlampe mit organischer Wellenstruktur, gedruckt in PLA und mit warmweißem Licht in Szene gesetzt.</p>
         </article>
 
         <article class="portfolio-card">

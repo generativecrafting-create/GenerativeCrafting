@@ -31,12 +31,12 @@ const translations = {
     "portfolio.item2.title": "Zierleisten-Clip (W124)",
     "portfolio.item2.tag1": "PETG",
     "portfolio.item2.tag2": "Reverse Engineering",
-    "portfolio.item2.desc": "Abgebrochener Zierleisten-Clip eines Mercedes W124 nachkonstruiert und in PETG nachgedruckt.",
+    "portfolio.item2.desc": "Ein nicht mehr lieferbarer Zierleisten-Clip für einen Mercedes W124 wurde vermessen, in CAD nachkonstruiert und als passgenaues Ersatzteil in PETG gefertigt.",
 
-    "portfolio.item3.title": "Wellen-Wandleuchte",
+    "portfolio.item3.title": "Wellen-Tischlampe",
     "portfolio.item3.tag1": "PLA",
     "portfolio.item3.tag2": "Unikat",
-    "portfolio.item3.desc": "Wandleuchte mit organischer Wellenstruktur, gedruckt in PLA und stimmungsvoll in Szene gesetzt.",
+    "portfolio.item3.desc": "Tischlampe mit organischer Wellenstruktur, gedruckt in PLA und mit warmweißem Licht in Szene gesetzt.",
 
     "portfolio.item4.title": "Kappsägen-Klemme (Makita)",
     "portfolio.item4.tag1": "PA-CF",
@@ -133,12 +133,12 @@ const translations = {
     "portfolio.item2.title": "Trim clip (W124)",
     "portfolio.item2.tag1": "PETG",
     "portfolio.item2.tag2": "Reverse engineering",
-    "portfolio.item2.desc": "A broken trim clip from a Mercedes W124 was redesigned and reprinted in PETG.",
+    "portfolio.item2.desc": "A discontinued trim clip for a Mercedes W124 was measured against the original, redesigned in CAD, and precision-printed in PETG as an exact-fit replacement.",
 
-    "portfolio.item3.title": "Wave wall lamp",
+    "portfolio.item3.title": "Wave table lamp",
     "portfolio.item3.tag1": "PLA",
     "portfolio.item3.tag2": "One of a kind",
-    "portfolio.item3.desc": "A wall lamp with an organic wave pattern, printed in PLA and set in warm light.",
+    "portfolio.item3.desc": "A table lamp with an organic wave pattern, printed in PLA and set in warm light.",
 
     "portfolio.item4.title": "Miter saw clamp (Makita)",
     "portfolio.item4.tag1": "PA-CF",

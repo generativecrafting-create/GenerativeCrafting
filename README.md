@@ -17,22 +17,23 @@ assets/img/           Bilder, Logo, Favicon
 ## Was du noch anpassen solltest
 
 ### 1. Logo & Favicon
-`assets/img/logo-mark.svg` (helle Variante für den dunklen Header) und
-`assets/img/logo-mark-dark.svg` (dunkle Variante für helle Hintergründe,
-z.B. Print/Docs) sind eine **nachgebaute Annäherung** an das im Chat
-geteilte Logo (Hexagon mit Cube-/Molekül-Motiv). Die Cloud-Umgebung hatte
-keinen Dateizugriff auf das eingefügte Bild, daher wurde die Grafik als
-Vektor nachgebaut statt 1:1 übernommen.
+Das Logo im Header ist **inline als SVG in `index.html`** eingebunden
+(im `<a class="brand">`-Block ganz oben), nicht als externe Bilddatei —
+das ist nötig, damit es sich automatisch an den Hell/Dunkel-Modus anpasst
+(die Wireframe-Linien nutzen `currentColor` und folgen damit `--text`).
 
-Sobald du die Originaldatei per Link (z.B. Google Drive, Dropbox,
-GitHub-Issue-Anhang) bereitstellen kannst, ersetze einfach
-`assets/img/logo-mark.svg` durch dein echtes Logo (idealerweise als SVG
-oder PNG mit transparentem Hintergrund) — der Dateiname in `index.html`
-kann gleich bleiben:
+Es ist eine **nachgebaute Annäherung** an das im Chat geteilte Logo
+(Hexagon mit Cube-/Molekül-Motiv). Die Cloud-Umgebung hatte keinen
+Dateizugriff auf das eingefügte Bild, daher wurde die Grafik als Vektor
+nachgebaut statt 1:1 übernommen. Sobald du die Originaldatei per Link
+(z.B. Google Drive, Dropbox, GitHub-Issue-Anhang) bereitstellen kannst,
+ersetze den `<svg class="brand-logo">`-Block in `index.html` durch dein
+echtes Logo.
 
-```html
-<img src="assets/img/logo-mark.svg" alt="Generative Crafting Logo" class="brand-logo">
-```
+Zusätzlich liegen zwei eigenständige Logo-Dateien für andere Zwecke
+(E-Mail-Signatur, Social Media, Print) bereit:
+`assets/img/logo-mark.svg` (helle Variante, für dunkle Hintergründe) und
+`assets/img/logo-mark-dark.svg` (dunkle Variante, für helle Hintergründe).
 
 `assets/img/favicon.svg` kannst du ebenfalls durch eine eigene Version
 ersetzen.
@@ -127,3 +128,16 @@ gewählte Sprache wird im Browser gespeichert (`localStorage`), sodass
 Besucher beim nächsten Besuch ihre Sprache behalten. Neue Texte immer als
 `data-i18n="schluessel"`-Attribut im HTML markieren und den Schlüssel in
 `js/i18n.js` für **beide** Sprachen ergänzen.
+
+## Hell/Dunkel-Modus
+
+Der Mond/Sonne-Button oben rechts schaltet zwischen Hell- und
+Dunkel-Theme um. Beim ersten Besuch wird automatisch die Systemeinstellung
+des Geräts übernommen; sobald jemand manuell umschaltet, wird die Wahl in
+`localStorage` gespeichert und bei künftigen Besuchen beibehalten.
+
+Alle Farben sind als CSS-Variablen in `css/style.css` definiert (`:root`
+für Dark, `:root[data-theme="light"]` für Light). Neue Komponenten sollten
+immer diese Variablen verwenden (`var(--bg)`, `var(--text)`,
+`var(--accent)` usw.) statt fixer Farbwerte, damit sie in beiden Themes
+funktionieren.

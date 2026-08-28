@@ -1,6 +1,17 @@
 (function () {
   "use strict";
 
+  const THEME_STORAGE_KEY = "gc-theme";
+  const themeToggle = document.getElementById("theme-toggle");
+  if (themeToggle) {
+    themeToggle.addEventListener("click", () => {
+      const current = document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
+      const next = current === "light" ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", next);
+      localStorage.setItem(THEME_STORAGE_KEY, next);
+    });
+  }
+
   const STORAGE_KEY = "gc-lang";
   const supported = ["de", "en"];
   const stored = localStorage.getItem(STORAGE_KEY);
