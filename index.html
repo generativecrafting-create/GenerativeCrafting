@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generative Crafting — 3D-Druck nach Maß</title>
+<meta name="description" content="Generative Crafting: individueller 3D-Druck, Prototypen, Deko und Kleinserien. Von der Idee zum fertigen Teil.">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="brand">
+      <img src="assets/img/logo-placeholder.svg" alt="Generative Crafting Logo" class="brand-logo">
+      <span class="brand-name">Generative<br><span class="accent">Crafting</span></span>
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a>
+      <a href="#process" data-i18n="nav.process">Prozess</a>
+      <a href="#about" data-i18n="nav.about">Über mich</a>
+      <a href="#order" data-i18n="nav.order">Auftrag anfragen</a>
+      <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Sprache wechseln">
+        <span class="lang-current">DE</span>/<span class="lang-other">EN</span>
+      </button>
+      <button id="nav-toggle" class="nav-toggle" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow" data-i18n="hero.eyebrow">3D-Druck Studio</p>
+      <h1 data-i18n="hero.title">Von der digitalen Idee<br>zum physischen Objekt.</h1>
+      <p class="hero-sub" data-i18n="hero.sub">
+        Generative Crafting entwirft und druckt individuelle Objekte — Prototypen, Deko,
+        Ersatzteile und Sonderanfertigungen. Präzise gefertigt, Schicht für Schicht.
+      </p>
+      <div class="hero-cta">
+        <a href="#portfolio" class="btn btn-primary" data-i18n="hero.cta_portfolio">Portfolio ansehen</a>
+        <a href="#order" class="btn btn-outline" data-i18n="hero.cta_order">Individuellen Auftrag anfragen</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <svg viewBox="0 0 400 400" class="hero-mesh">
+        <polygon points="200,20 360,110 360,290 200,380 40,290 40,110" fill="none" stroke="currentColor" stroke-width="1"/>
+        <polygon points="200,80 310,140 310,260 200,320 90,260 90,140" fill="none" stroke="currentColor" stroke-width="1" opacity="0.6"/>
+        <polygon points="200,140 260,175 260,225 200,260 140,225 140,175" fill="none" stroke="currentColor" stroke-width="1" opacity="0.4"/>
+        <line x1="200" y1="20" x2="200" y2="380" stroke="currentColor" stroke-width="0.5" opacity="0.3"/>
+        <line x1="40" y1="110" x2="360" y2="290" stroke="currentColor" stroke-width="0.5" opacity="0.3"/>
+        <line x1="360" y1="110" x2="40" y2="290" stroke="currentColor" stroke-width="0.5" opacity="0.3"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- STATS / CAPABILITIES -->
+  <section class="capabilities">
+    <div class="container capabilities-grid">
+      <div class="cap-item">
+        <span class="cap-value">±0.1mm</span>
+        <span class="cap-label" data-i18n="cap.precision">Präzision</span>
+      </div>
+      <div class="cap-item">
+        <span class="cap-value">FDM / SLA</span>
+        <span class="cap-label" data-i18n="cap.tech">Drucktechnologien</span>
+      </div>
+      <div class="cap-item">
+        <span class="cap-value">PLA · PETG · Resin</span>
+        <span class="cap-label" data-i18n="cap.materials">Materialien</span>
+      </div>
+      <div class="cap-item">
+        <span class="cap-value">1–500+</span>
+        <span class="cap-label" data-i18n="cap.batch">Stückzahl (Unikat bis Kleinserie)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="portfolio.eyebrow">Ausgewählte Arbeiten</p>
+      <h2 data-i18n="portfolio.title">Portfolio</h2>
+      <p class="section-lead" data-i18n="portfolio.lead">
+        Ein Einblick in vergangene Projekte. Fotos folgen laufend — dies sind Platzhalter für echte Werkstücke.
+      </p>
+
+      <div class="portfolio-grid">
+
+        <article class="portfolio-card">
+          <div class="portfolio-thumb thumb-1">
+            <span class="thumb-badge" data-i18n="placeholder.photo">Foto folgt</span>
+          </div>
+          <h3 data-i18n="portfolio.item1.title">Architekturmodell</h3>
+          <p class="tag-row"><span class="tag" data-i18n="portfolio.item1.tag1">PLA</span><span class="tag" data-i18n="portfolio.item1.tag2">Maßstab 1:100</span></p>
+          <p data-i18n="portfolio.item1.desc">Präzises Modell für Bauvisualisierung, mehrteilig gedruckt und montiert.</p>
+        </article>
+
+        <article class="portfolio-card">
+          <div class="portfolio-thumb thumb-2">
+            <span class="thumb-badge" data-i18n="placeholder.photo">Foto folgt</span>
+          </div>
+          <h3 data-i18n="portfolio.item2.title">Funktionsprototyp</h3>
+          <p class="tag-row"><span class="tag" data-i18n="portfolio.item2.tag1">PETG</span><span class="tag" data-i18n="portfolio.item2.tag2">Funktionsteil</span></p>
+          <p data-i18n="portfolio.item2.desc">Belastbarer Prototyp für ein mechanisches Bauteil, mehrere Iterationen.</p>
+        </article>
+
+        <article class="portfolio-card">
+          <div class="portfolio-thumb thumb-3">
+            <span class="thumb-badge" data-i18n="placeholder.photo">Foto folgt</span>
+          </div>
+          <h3 data-i18n="portfolio.item3.title">Deko & Wohnaccessoire</h3>
+          <p class="tag-row"><span class="tag" data-i18n="portfolio.item3.tag1">Resin</span><span class="tag" data-i18n="portfolio.item3.tag2">Unikat</span></p>
+          <p data-i18n="portfolio.item3.desc">Filigrane generative Struktur, in Handarbeit nachbearbeitet.</p>
+        </article>
+
+        <article class="portfolio-card">
+          <div class="portfolio-thumb thumb-4">
+            <span class="thumb-badge" data-i18n="placeholder.photo">Foto folgt</span>
+          </div>
+          <h3 data-i18n="portfolio.item4.title">Ersatzteil-Fertigung</h3>
+          <p class="tag-row"><span class="tag" data-i18n="portfolio.item4.tag1">PLA+</span><span class="tag" data-i18n="portfolio.item4.tag2">Reverse Engineering</span></p>
+          <p data-i18n="portfolio.item4.desc">Nicht mehr erhältliches Ersatzteil vermessen, konstruiert und nachgedruckt.</p>
+        </article>
+
+        <article class="portfolio-card">
+          <div class="portfolio-thumb thumb-5">
+            <span class="thumb-badge" data-i18n="placeholder.photo">Foto folgt</span>
+          </div>
+          <h3 data-i18n="portfolio.item5.title">Individuelles Geschenk</h3>
+          <p class="tag-row"><span class="tag" data-i18n="portfolio.item5.tag1">Multicolor</span><span class="tag" data-i18n="portfolio.item5.tag2">Personalisiert</span></p>
+          <p data-i18n="portfolio.item5.desc">Nach Kundenwunsch entworfenes Unikat als Geschenkidee.</p>
+        </article>
+
+        <article class="portfolio-card">
+          <div class="portfolio-thumb thumb-6">
+            <span class="thumb-badge" data-i18n="placeholder.photo">Foto folgt</span>
+          </div>
+          <h3 data-i18n="portfolio.item6.title">Miniaturen-Serie</h3>
+          <p class="tag-row"><span class="tag" data-i18n="portfolio.item6.tag1">Resin</span><span class="tag" data-i18n="portfolio.item6.tag2">Kleinserie</span></p>
+          <p data-i18n="portfolio.item6.desc">Hochauflösende Miniaturen in kleiner Stückzahl gefertigt.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process" class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="process.eyebrow">Ablauf</p>
+      <h2 data-i18n="process.title">So läuft dein Auftrag</h2>
+
+      <ol class="process-list">
+        <li>
+          <span class="process-num">01</span>
+          <h3 data-i18n="process.step1.title">Anfrage &amp; Beratung</h3>
+          <p data-i18n="process.step1.desc">Du beschreibst dein Projekt (oder schickst ein Modell) — ich prüfe Machbarkeit, Material und Zeitrahmen.</p>
+        </li>
+        <li>
+          <span class="process-num">02</span>
+          <h3 data-i18n="process.step2.title">Design &amp; Angebot</h3>
+          <p data-i18n="process.step2.desc">Bei Bedarf konstruiere ich das Modell (CAD/generativ) und du erhältst ein verbindliches Angebot.</p>
+        </li>
+        <li>
+          <span class="process-num">03</span>
+          <h3 data-i18n="process.step3.title">Druck &amp; Fertigung</h3>
+          <p data-i18n="process.step3.desc">Slicing, Materialwahl und Druck auf FDM- oder SLA-Anlagen — mit laufender Qualitätskontrolle.</p>
+        </li>
+        <li>
+          <span class="process-num">04</span>
+          <h3 data-i18n="process.step4.title">Nachbearbeitung &amp; Versand</h3>
+          <p data-i18n="process.step4.desc">Entfernen der Stützstrukturen, Schleifen, ggf. Lackieren — dann Versand oder Abholung.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div>
+        <p class="section-eyebrow" data-i18n="about.eyebrow">Über mich</p>
+        <h2 data-i18n="about.title">Generative Crafting</h2>
+        <p data-i18n="about.p1">
+          Generative Crafting ist ein 3D-Druck-Studio mit Fokus auf individuelle Sonderanfertigungen.
+          Ich verbinde generatives Design mit präziser additiver Fertigung, um Objekte zu schaffen,
+          die es so kein zweites Mal gibt.
+        </p>
+        <p data-i18n="about.p2">
+          Ob Prototyp, Ersatzteil, Deko-Objekt oder Geschenk: Jedes Projekt beginnt mit einem Gespräch
+          und endet mit einem sorgfältig gefertigten Teil in deinen Händen.
+        </p>
+        <ul class="about-facts">
+          <li><strong data-i18n="about.fact1_label">Standort:</strong> <span data-i18n="about.fact1_value">[Ort ergänzen]</span></li>
+          <li><strong data-i18n="about.fact2_label">Drucker:</strong> <span data-i18n="about.fact2_value">[Druckermodelle ergänzen]</span></li>
+          <li><strong data-i18n="about.fact3_label">Materialien:</strong> <span>PLA, PLA+, PETG, Resin</span></li>
+        </ul>
+      </div>
+      <div class="about-visual" aria-hidden="true">
+        <svg viewBox="0 0 300 300" class="about-mesh">
+          <circle cx="150" cy="150" r="120" fill="none" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+          <circle cx="150" cy="150" r="80" fill="none" stroke="currentColor" stroke-width="1" opacity="0.7"/>
+          <circle cx="150" cy="150" r="40" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M150,30 L150,270 M30,150 L270,150" stroke="currentColor" stroke-width="0.5" opacity="0.3"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER FORM -->
+  <section id="order" class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="order.eyebrow">Individueller Auftrag</p>
+      <h2 data-i18n="order.title">Projekt anfragen</h2>
+      <p class="section-lead" data-i18n="order.lead">
+        Beschreibe dein Vorhaben so genau wie möglich. Du kannst optional Referenzbilder
+        oder eine Modelldatei (z.B. STL) anhängen. Ich melde mich in der Regel innerhalb von
+        2–3 Werktagen mit einer Einschätzung zurück.
+      </p>
+
+      <form id="order-form" class="order-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" enctype="multipart/form-data">
+        <div class="form-row">
+          <div class="form-field">
+            <label for="name" data-i18n="order.form.name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-field">
+            <label for="email" data-i18n="order.form.email">E-Mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="project_type" data-i18n="order.form.type">Projektart</label>
+            <select id="project_type" name="project_type">
+              <option data-i18n="order.form.type_prototype">Prototyp</option>
+              <option data-i18n="order.form.type_deco">Deko / Geschenk</option>
+              <option data-i18n="order.form.type_part">Ersatzteil</option>
+              <option data-i18n="order.form.type_other">Sonstiges</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="budget" data-i18n="order.form.budget">Budget (optional)</label>
+            <input type="text" id="budget" name="budget" placeholder="z.B. 20–50 €">
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="description" data-i18n="order.form.description">Projektbeschreibung</label>
+          <textarea id="description" name="description" rows="5" required></textarea>
+        </div>
+
+        <div class="form-field">
+          <label for="attachment" data-i18n="order.form.attachment">Referenzbild / Modelldatei (optional)</label>
+          <input type="file" id="attachment" name="attachment">
+        </div>
+
+        <button type="submit" class="btn btn-primary" data-i18n="order.form.submit">Anfrage senden</button>
+
+        <p id="form-status" class="form-status" role="status"></p>
+        <p class="form-note" data-i18n="order.form.note">
+          Formular noch nicht aktiv: Bitte Formspree-Formular-ID in index.html eintragen (siehe README).
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container contact-inner">
+      <div>
+        <p class="section-eyebrow" data-i18n="contact.eyebrow">Kontakt</p>
+        <h2 data-i18n="contact.title">Direkt Kontakt aufnehmen</h2>
+        <p data-i18n="contact.lead">Lieber direkt schreiben statt Formular? Kein Problem.</p>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label" data-i18n="contact.email_label">E-Mail</span>
+            <a href="mailto:generative.crafting@gmail.com">generative.crafting@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact-label" data-i18n="contact.social_label">Social Media</span>
+            <span class="placeholder-text" data-i18n="placeholder.social">[Instagram/Etsy-Link ergänzen]</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>&copy; <span id="year"></span> Generative Crafting</span>
+    <span class="footer-note" data-i18n="footer.note">Individueller 3D-Druck &amp; generatives Design</span>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
