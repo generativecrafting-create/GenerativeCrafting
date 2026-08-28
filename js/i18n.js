@@ -34,14 +34,14 @@ const translations = {
     "portfolio.item2.desc": "Belastbarer Prototyp für ein mechanisches Bauteil, mehrere Iterationen.",
 
     "portfolio.item3.title": "Deko & Wohnaccessoire",
-    "portfolio.item3.tag1": "Resin",
+    "portfolio.item3.tag1": "ASA",
     "portfolio.item3.tag2": "Unikat",
     "portfolio.item3.desc": "Filigrane generative Struktur, in Handarbeit nachbearbeitet.",
 
     "portfolio.item4.title": "Ersatzteil-Fertigung",
-    "portfolio.item4.tag1": "PLA+",
+    "portfolio.item4.tag1": "PLA",
     "portfolio.item4.tag2": "Reverse Engineering",
-    "portfolio.item4.desc": "Nicht mehr erhältliches Ersatzteil vermessen, konstruiert und nachgedruckt.",
+    "portfolio.item4.desc": "Vergilbtes Original-Schließblech vermessen und als passgenaues Ersatzteil neu konstruiert und gedruckt.",
 
     "portfolio.item5.title": "Individuelles Geschenk",
     "portfolio.item5.tag1": "Multicolor",
@@ -49,9 +49,9 @@ const translations = {
     "portfolio.item5.desc": "Nach Kundenwunsch entworfenes Unikat als Geschenkidee.",
 
     "portfolio.item6.title": "Miniaturen-Serie",
-    "portfolio.item6.tag1": "Resin",
+    "portfolio.item6.tag1": "PLA",
     "portfolio.item6.tag2": "Kleinserie",
-    "portfolio.item6.desc": "Hochauflösende Miniaturen in kleiner Stückzahl gefertigt.",
+    "portfolio.item6.desc": "Mehrfarbige Miniaturen dank AMS in kleiner Stückzahl gefertigt.",
 
     "process.eyebrow": "Ablauf",
     "process.title": "So läuft dein Auftrag",
@@ -69,9 +69,10 @@ const translations = {
     "about.p1": "Generative Crafting ist ein 3D-Druck-Studio mit Fokus auf individuelle Sonderanfertigungen. Ich verbinde generatives Design mit präziser additiver Fertigung, um Objekte zu schaffen, die es so kein zweites Mal gibt.",
     "about.p2": "Ob Prototyp, Ersatzteil, Deko-Objekt oder Geschenk: Jedes Projekt beginnt mit einem Gespräch und endet mit einem sorgfältig gefertigten Teil in deinen Händen.",
     "about.fact1_label": "Standort:",
-    "about.fact1_value": "[Ort ergänzen]",
+    "about.fact1_value": "2011 Sierndorf, Österreich",
     "about.fact2_label": "Drucker:",
-    "about.fact2_value": "[Druckermodelle ergänzen]",
+    "about.fact2_value": "Bambu Lab H2D (FDM) mit AMS 2 Pro &amp; AMS HT",
+    "about.fact3_label": "Materialien:",
 
     "order.eyebrow": "Individueller Auftrag",
     "order.title": "Projekt anfragen",
@@ -97,7 +98,6 @@ const translations = {
     "contact.lead": "Lieber direkt schreiben statt Formular? Kein Problem.",
     "contact.email_label": "E-Mail",
     "contact.social_label": "Social Media",
-    "placeholder.social": "[Instagram/Etsy-Link ergänzen]",
 
     "footer.note": "Individueller 3D-Druck &amp; generatives Design"
   },
@@ -136,14 +136,14 @@ const translations = {
     "portfolio.item2.desc": "Durable prototype for a mechanical component, several iterations.",
 
     "portfolio.item3.title": "Decor & home accessory",
-    "portfolio.item3.tag1": "Resin",
+    "portfolio.item3.tag1": "ASA",
     "portfolio.item3.tag2": "One of a kind",
     "portfolio.item3.desc": "Intricate generative structure, hand-finished.",
 
     "portfolio.item4.title": "Spare part fabrication",
-    "portfolio.item4.tag1": "PLA+",
+    "portfolio.item4.tag1": "PLA",
     "portfolio.item4.tag2": "Reverse engineering",
-    "portfolio.item4.desc": "Discontinued part measured, modeled and reprinted.",
+    "portfolio.item4.desc": "A yellowed original strike plate was measured and rebuilt as an exact-fit replacement part.",
 
     "portfolio.item5.title": "Custom gift",
     "portfolio.item5.tag1": "Multicolor",
@@ -151,9 +151,9 @@ const translations = {
     "portfolio.item5.desc": "One-of-a-kind piece designed to the customer's request.",
 
     "portfolio.item6.title": "Miniature series",
-    "portfolio.item6.tag1": "Resin",
+    "portfolio.item6.tag1": "PLA",
     "portfolio.item6.tag2": "Small batch",
-    "portfolio.item6.desc": "High-resolution miniatures produced in a small batch.",
+    "portfolio.item6.desc": "Multicolor miniatures made possible by the AMS, produced in a small batch.",
 
     "process.eyebrow": "Workflow",
     "process.title": "How your order works",
@@ -171,9 +171,10 @@ const translations = {
     "about.p1": "Generative Crafting is a 3D printing studio focused on custom one-off commissions. I combine generative design with precise additive manufacturing to create objects that exist nowhere else.",
     "about.p2": "Whether it's a prototype, spare part, decor piece or gift: every project starts with a conversation and ends with a carefully made part in your hands.",
     "about.fact1_label": "Location:",
-    "about.fact1_value": "[Add location]",
-    "about.fact2_label": "Printers:",
-    "about.fact2_value": "[Add printer models]",
+    "about.fact1_value": "2011 Sierndorf, Austria",
+    "about.fact2_label": "Printer:",
+    "about.fact2_value": "Bambu Lab H2D (FDM) with AMS 2 Pro &amp; AMS HT",
+    "about.fact3_label": "Materials:",
 
     "order.eyebrow": "Custom project",
     "order.title": "Request a project",
@@ -199,7 +200,6 @@ const translations = {
     "contact.lead": "Prefer to write directly instead of using the form? No problem.",
     "contact.email_label": "Email",
     "contact.social_label": "Social media",
-    "placeholder.social": "[Add Instagram/Etsy link]",
 
     "footer.note": "Custom 3D printing &amp; generative design"
   }
