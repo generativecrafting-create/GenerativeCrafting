@@ -289,6 +289,12 @@ a { color: inherit; text-decoration: none; }
   overflow: hidden;
 }
 
+.portfolio-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .thumb-badge {
   font-family: var(--font-mono);
   font-size: 0.72rem;
