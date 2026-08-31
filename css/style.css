@@ -413,6 +413,11 @@ a { color: inherit; text-decoration: none; }
   align-items: center;
 }
 
+.about-tagline {
+  font-weight: 600;
+  margin: 0 0 18px;
+}
+
 .about-facts {
   list-style: none;
   padding: 0;

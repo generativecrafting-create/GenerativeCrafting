@@ -28,11 +28,6 @@ const translations = {
     "portfolio.item1.tag2": "Maßstab 1:100",
     "portfolio.item1.desc": "Präzises Modell für Bauvisualisierung, mehrteilig gedruckt und montiert.",
 
-    "portfolio.item2.title": "Wellen-Tischlampe",
-    "portfolio.item2.tag1": "PLA",
-    "portfolio.item2.tag2": "Unikat",
-    "portfolio.item2.desc": "Tischlampe mit organischer Wellenstruktur, gedruckt in PLA und mit warmweißem Licht in Szene gesetzt.",
-
     "portfolio.item3.title": "Individuelles Geschenk",
     "portfolio.item3.tag1": "Multicolor",
     "portfolio.item3.tag2": "Personalisiert",
@@ -71,8 +66,11 @@ const translations = {
 
     "about.eyebrow": "Über mich",
     "about.title": "Generative Crafting",
-    "about.p1": "Generative Crafting ist ein 3D-Druck-Studio mit Fokus auf individuelle Sonderanfertigungen. Ich verbinde generatives Design mit präziser additiver Fertigung, um Objekte zu schaffen, die es so kein zweites Mal gibt.",
-    "about.p2": "Ob Prototyp, technisches Bauteil, Deko-Objekt oder Geschenk: Jedes Projekt beginnt mit einem Gespräch und endet mit einem sorgfältig gefertigten Teil in deinen Händen.",
+    "about.tagline": "Individuell entwickelt. Präzise gefertigt.",
+    "about.p1": "Generative Crafting steht für technisch orientierten 3D-Druck und individuelle Sonderanfertigungen nach Kundenwunsch.",
+    "about.p2": "Im Fokus stehen maßgeschneiderte Modelle, Einzelstücke und speziell angepasste Geometrien, die digital entwickelt und mittels additiver Fertigung umgesetzt werden. Von der ersten Idee oder vorhandenen CAD-Daten bis zum fertigen Modell liegt der Schwerpunkt auf einer technisch sauberen Konstruktion, sinnvoll gewählten Fertigungsparametern und einer hochwertigen Umsetzung.",
+    "about.p3": "Durch den Hintergrund in Maschinenbau, Feinwerkmechanik und industrieller Praxis verbindet Generative Crafting konstruktives Verständnis mit moderner Fertigungstechnologie. So entstehen individuelle Lösungen für besondere Anforderungen, komplexe Geometrien und kundenspezifische Anwendungen, die sich mit klassischen Fertigungsverfahren oft nur mit deutlich höherem Aufwand realisieren lassen.",
+    "about.closing": "Generative Crafting – Sonderanfertigungen aus dem 3D-Druck. Technisch gedacht. Individuell umgesetzt.",
     "about.fact1_label": "Standort:",
     "about.fact1_value": "2011 Sierndorf, Österreich",
     "about.fact2_label": "Drucker:",
@@ -135,11 +133,6 @@ const translations = {
     "portfolio.item1.tag2": "1:100 scale",
     "portfolio.item1.desc": "Precise model for building visualization, printed in parts and assembled.",
 
-    "portfolio.item2.title": "Wave table lamp",
-    "portfolio.item2.tag1": "PLA",
-    "portfolio.item2.tag2": "One of a kind",
-    "portfolio.item2.desc": "A table lamp with an organic wave pattern, printed in PLA and set in warm light.",
-
     "portfolio.item3.title": "Custom gift",
     "portfolio.item3.tag1": "Multicolor",
     "portfolio.item3.tag2": "Personalized",
@@ -178,8 +171,11 @@ const translations = {
 
     "about.eyebrow": "About",
     "about.title": "Generative Crafting",
-    "about.p1": "Generative Crafting is a 3D printing studio focused on custom one-off commissions. I combine generative design with precise additive manufacturing to create objects that exist nowhere else.",
-    "about.p2": "Whether it's a prototype, technical component, decor piece or gift: every project starts with a conversation and ends with a carefully made piece in your hands.",
+    "about.tagline": "Individually engineered. Precision-made.",
+    "about.p1": "Generative Crafting stands for technically oriented 3D printing and custom one-off commissions built to the customer's specification.",
+    "about.p2": "The focus is on tailor-made models, one-off pieces, and specially adapted geometries that are developed digitally and realized through additive manufacturing. From the initial idea or existing CAD data through to the finished model, the emphasis is on clean technical design, sensibly chosen process parameters, and high-quality execution.",
+    "about.p3": "Drawing on a background in mechanical engineering, precision engineering, and industrial practice, Generative Crafting combines design expertise with modern manufacturing technology. The result is individual solutions for special requirements, complex geometries, and customer-specific applications that classical manufacturing methods can often only achieve with significantly more effort.",
+    "about.closing": "Generative Crafting – custom 3D-printed pieces. Technically engineered. Individually realized.",
     "about.fact1_label": "Location:",
     "about.fact1_value": "2011 Sierndorf, Austria",
     "about.fact2_label": "Printer:",
