@@ -59,34 +59,21 @@ durch z. B.:
 
 Lege die Bilder unter `assets/img/` ab.
 
-### 3. Auftragsformular aktivieren (E-Mail-Empfang)
-Das Formular sendet aktuell noch nirgendwohin. Es ist für
-[Formspree](https://formspree.io) vorbereitet (kostenloser Tarif reicht):
+### 3. Auftragsformular (E-Mail-Empfang) ✅ eingerichtet
+Das Formular läuft über [Formspree](https://formspree.io) und ist bereits
+mit einer Formular-ID verknüpft (`action="https://formspree.io/f/mvkozeee"`
+im `<form id="order-form" ...>`-Tag). Anfragen landen direkt im
+verknüpften Formspree-Konto/E-Mail-Postfach.
 
-1. Kostenloses Konto auf formspree.io mit `generative.crafting@gmail.com` anlegen.
-2. Neues Formular erstellen → du bekommst eine Formular-ID (`xxxxxxxx`).
-3. In `index.html` im `<form id="order-form" ...>`-Tag die Action-URL ersetzen:
-
-   ```html
-   action="https://formspree.io/f/xxxxxxxx"
-   ```
-
-4. Den Hinweistext direkt unter dem Absenden-Button
-   (`data-i18n="order.form.note"`) kannst du danach aus `index.html`
-   entfernen — der Hinweis erscheint automatisch nur, solange
-   `YOUR_FORM_ID` noch im `action`-Attribut steht.
-
-Alternative zu Formspree: jeder andere Formular-Endpoint-Dienst
-(z. B. Netlify Forms, wenn du auf Netlify hostest) funktioniert genauso,
-einfach die `action`-URL entsprechend anpassen.
+Falls das Formular je auf einen anderen Dienst umgezogen werden soll
+(z. B. Netlify Forms bei Netlify-Hosting), einfach die `action`-URL im
+`<form>`-Tag anpassen.
 
 ### 4. Texte & Eckdaten ergänzen
-In `js/i18n.js` (Übersetzungen DE + EN) folgende Platzhalter ersetzen:
-
-- `about.fact1_value` → Standort
-- `about.fact2_value` → Drucker-Modelle
-- `placeholder.social` → Instagram/Etsy/Social-Media-Link (in `index.html`
-  auch den `<span class="placeholder-text">` durch einen echten `<a>`-Link ersetzen)
+Standort, Drucker, Materialien und Social-Media-Link sind bereits in
+`js/i18n.js` und `index.html` eingetragen. Weitere Anpassungen (Preise,
+zusätzliche Prozessdetails o. Ä.) direkt in `js/i18n.js` für **beide**
+Sprachen (`de` und `en`) vornehmen.
 
 Alle anderen Texte (Hero, Über mich, Prozess, Portfolio-Beschreibungen)
 sind frei editierbar — bitte **in beiden Sprachen** (`de` und `en` Objekt)
