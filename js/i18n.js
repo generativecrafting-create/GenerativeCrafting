@@ -43,6 +43,11 @@ const translations = {
     "portfolio.item4.tag2": "Kleinserie",
     "portfolio.item4.desc": "Mehrfarbige Miniaturen dank AMS in kleiner Stückzahl gefertigt.",
 
+    "portfolio.item5.title": "Rollladen-Abdeckplatte",
+    "portfolio.item5.tag1": "PETG",
+    "portfolio.item5.tag2": "Reverse Engineering",
+    "portfolio.item5.desc": "Ein defekter Rollladenkasten-Deckel wurde vermessen, in CAD neu konstruiert und als passgenaues Ersatzteil nachgedruckt.",
+
     "process.eyebrow": "Ablauf",
     "process.title": "So läuft dein Auftrag",
     "process.step1.title": "Anfrage & Beratung",
@@ -134,6 +139,11 @@ const translations = {
     "portfolio.item4.tag1": "PLA",
     "portfolio.item4.tag2": "Small batch",
     "portfolio.item4.desc": "Multicolor miniatures made possible by the AMS, produced in a small batch.",
+
+    "portfolio.item5.title": "Roller shutter cover plate",
+    "portfolio.item5.tag1": "PETG",
+    "portfolio.item5.tag2": "Reverse engineering",
+    "portfolio.item5.desc": "A broken roller shutter box cover was measured, redesigned in CAD, and reprinted as an exact-fit replacement part.",
 
     "process.eyebrow": "Workflow",
     "process.title": "How your order works",
