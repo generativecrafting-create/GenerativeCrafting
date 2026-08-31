@@ -44,9 +44,19 @@ const translations = {
     "portfolio.item4.desc": "Mehrfarbige Miniaturen dank AMS in kleiner Stückzahl gefertigt.",
 
     "portfolio.item5.title": "Rollladen-Abdeckplatte",
-    "portfolio.item5.tag1": "PETG",
+    "portfolio.item5.tag1": "ASA",
     "portfolio.item5.tag2": "Reverse Engineering",
     "portfolio.item5.desc": "Ein beschädigter Rollladenkasten-Deckel wurde vermessen, in CAD rekonstruiert und maßgetreu nachgedruckt.",
+
+    "portfolio.item6.title": "Zierleisten-Clip",
+    "portfolio.item6.tag1": "PETG",
+    "portfolio.item6.tag2": "Reverse Engineering",
+    "portfolio.item6.desc": "Ein abgenutzter Zierleisten-Clip aus dem Fahrzeugbau wurde vermessen, in CAD nachkonstruiert und passgenau in PETG nachgedruckt.",
+
+    "portfolio.item7.title": "Kappsägen-Klemme",
+    "portfolio.item7.tag1": "PA-CF",
+    "portfolio.item7.tag2": "Verstärkte Konstruktion",
+    "portfolio.item7.desc": "Eine bruchanfällige Original-Klemme wurde nachgebaut und mit PA-CF verstärkt für deutlich höhere Belastbarkeit.",
 
     "process.eyebrow": "Ablauf",
     "process.title": "So läuft dein Auftrag",
@@ -141,9 +151,19 @@ const translations = {
     "portfolio.item4.desc": "Multicolor miniatures made possible by the AMS, produced in a small batch.",
 
     "portfolio.item5.title": "Roller shutter cover plate",
-    "portfolio.item5.tag1": "PETG",
+    "portfolio.item5.tag1": "ASA",
     "portfolio.item5.tag2": "Reverse engineering",
     "portfolio.item5.desc": "A damaged roller shutter box cover was measured, reconstructed in CAD, and reprinted to exact scale.",
+
+    "portfolio.item6.title": "Trim clip",
+    "portfolio.item6.tag1": "PETG",
+    "portfolio.item6.tag2": "Reverse engineering",
+    "portfolio.item6.desc": "A worn automotive trim clip was measured, redesigned in CAD, and precision-reprinted in PETG.",
+
+    "portfolio.item7.title": "Miter saw clamp",
+    "portfolio.item7.tag1": "PA-CF",
+    "portfolio.item7.tag2": "Reinforced design",
+    "portfolio.item7.desc": "A failure-prone original clamp was rebuilt and reinforced with PA-CF for much higher load capacity.",
 
     "process.eyebrow": "Workflow",
     "process.title": "How your order works",
