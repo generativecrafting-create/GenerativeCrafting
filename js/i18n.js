@@ -53,9 +53,9 @@ const translations = {
     "process.step1.title": "Anfrage & Beratung",
     "process.step1.desc": "Du beschreibst dein Projekt (oder schickst ein Modell) — ich prüfe Machbarkeit, Material und Zeitrahmen.",
     "process.step2.title": "Design & Angebot",
-    "process.step2.desc": "Bei Bedarf konstruiere ich das Modell (CAD/generativ) und du erhältst ein verbindliches Angebot.",
+    "process.step2.desc": "Bei Bedarf konstruiere ich das Modell (CAD) und du erhältst ein verbindliches Angebot.",
     "process.step3.title": "Druck & Fertigung",
-    "process.step3.desc": "Slicing, Materialwahl und Druck auf FDM- oder SLA-Anlagen — mit laufender Qualitätskontrolle.",
+    "process.step3.desc": "Slicing, Materialwahl und Druck auf FDM-Anlagen — mit laufender Qualitätskontrolle.",
     "process.step4.title": "Nachbearbeitung & Versand",
     "process.step4.desc": "Entfernen der Stützstrukturen, Schleifen, ggf. Lackieren — dann Versand oder Abholung.",
 
@@ -153,9 +153,9 @@ const translations = {
     "process.step1.title": "Inquiry & consultation",
     "process.step1.desc": "You describe your project (or send a model) — I check feasibility, material and timeline.",
     "process.step2.title": "Design & quote",
-    "process.step2.desc": "If needed, I model the part (CAD/generative) and you get a binding quote.",
+    "process.step2.desc": "If needed, I model the part (CAD) and you get a binding quote.",
     "process.step3.title": "Printing & production",
-    "process.step3.desc": "Slicing, material selection and printing on FDM or SLA machines — with ongoing quality control.",
+    "process.step3.desc": "Slicing, material selection and printing on FDM machines — with ongoing quality control.",
     "process.step4.title": "Finishing & shipping",
     "process.step4.desc": "Removing supports, sanding, optional painting — then shipping or pickup.",
 
