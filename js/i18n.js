@@ -23,11 +23,6 @@ const translations = {
     "portfolio.lead": "Ein Einblick in vergangene Projekte. Fotos folgen laufend — dies sind Platzhalter für echte Werkstücke.",
     "placeholder.photo": "Foto folgt",
 
-    "portfolio.item1.title": "Architekturmodell",
-    "portfolio.item1.tag1": "PLA",
-    "portfolio.item1.tag2": "Maßstab 1:100",
-    "portfolio.item1.desc": "Präzises Modell für Bauvisualisierung, mehrteilig gedruckt und montiert.",
-
     "portfolio.item3.title": "Individuelles Geschenk",
     "portfolio.item3.tag1": "Multicolor",
     "portfolio.item3.tag2": "Personalisiert",
@@ -127,11 +122,6 @@ const translations = {
     "portfolio.title": "Portfolio",
     "portfolio.lead": "A glimpse into past projects. Photos are being added continuously — these are placeholders for real pieces.",
     "placeholder.photo": "Photo coming soon",
-
-    "portfolio.item1.title": "Architectural model",
-    "portfolio.item1.tag1": "PLA",
-    "portfolio.item1.tag2": "1:100 scale",
-    "portfolio.item1.desc": "Precise model for building visualization, printed in parts and assembled.",
 
     "portfolio.item3.title": "Custom gift",
     "portfolio.item3.tag1": "Multicolor",
