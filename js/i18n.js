@@ -20,7 +20,7 @@ const translations = {
 
     "portfolio.eyebrow": "Ausgewählte Arbeiten",
     "portfolio.title": "Portfolio",
-    "portfolio.lead": "Ein Einblick in vergangene Projekte. Fotos folgen laufend — dies sind Platzhalter für echte Werkstücke.",
+    "portfolio.lead": "Eine Auswahl umgesetzter Projekte — technisch anspruchsvoll gedacht, präzise gedruckt.",
     "placeholder.photo": "Foto folgt",
 
     "portfolio.item3.title": "Individuelles Geschenk",
@@ -120,7 +120,7 @@ const translations = {
 
     "portfolio.eyebrow": "Selected work",
     "portfolio.title": "Portfolio",
-    "portfolio.lead": "A glimpse into past projects. Photos are being added continuously — these are placeholders for real pieces.",
+    "portfolio.lead": "A selection of completed projects — technically demanding by design, precisely printed.",
     "placeholder.photo": "Photo coming soon",
 
     "portfolio.item3.title": "Custom gift",
