@@ -35,8 +35,11 @@ Zusätzlich liegen zwei eigenständige Logo-Dateien für andere Zwecke
 `assets/img/logo-mark.svg` (helle Variante, für dunkle Hintergründe) und
 `assets/img/logo-mark-dark.svg` (dunkle Variante, für helle Hintergründe).
 
-`assets/img/favicon.svg` kannst du ebenfalls durch eine eigene Version
-ersetzen.
+Das **Favicon** (Browser-Tab-Icon) ist bereits das echte Logo: aus der
+hochgeladenen Datei freigestellt und in `assets/img/favicon-16.png`,
+`favicon-32.png` und `apple-touch-icon.png` (180×180, für iOS/Homescreen)
+gespeichert. `favicon-256.png` liegt als hochauflösende Master-Version
+für spätere Zwecke (z. B. Social-Media-Profilbild) bereit.
 
 ### 2. Portfolio-Fotos
 Die Portfolio-Karten in `index.html` (Abschnitt `#portfolio`) haben
