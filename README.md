@@ -16,19 +16,15 @@ assets/img/           Bilder, Logo, Favicon
 
 ## Was du noch anpassen solltest
 
-### 1. Logo & Favicon
-Das Logo im Header ist **inline als SVG in `index.html`** eingebunden
-(im `<a class="brand">`-Block ganz oben), nicht als externe Bilddatei —
-das ist nötig, damit es sich automatisch an den Hell/Dunkel-Modus anpasst
-(die Wireframe-Linien nutzen `currentColor` und folgen damit `--text`).
-
-Es ist eine **nachgebaute Annäherung** an das im Chat geteilte Logo
-(Hexagon mit Cube-/Molekül-Motiv). Die Cloud-Umgebung hatte keinen
-Dateizugriff auf das eingefügte Bild, daher wurde die Grafik als Vektor
-nachgebaut statt 1:1 übernommen. Sobald du die Originaldatei per Link
-(z.B. Google Drive, Dropbox, GitHub-Issue-Anhang) bereitstellen kannst,
-ersetze den `<svg class="brand-logo">`-Block in `index.html` durch dein
-echtes Logo.
+### 1. Logo & Favicon ✅ echtes Logo eingebunden
+Das Logo im Header (`assets/img/logo-icon.png`, freigestellt aus der
+hochgeladenen Originaldatei) passt sich automatisch an den
+Hell/Dunkel-Modus an: Die Grafik ist schwarz auf transparent, im
+Dark-Theme wird sie per CSS `filter: invert(1)` auf `.brand-logo`
+umgekehrt (siehe `css/style.css`). Bei einer neuen Logo-Version
+einfach `assets/img/logo-icon.png` ersetzen — Größe/Zuschnitt möglichst
+ähnlich beibehalten (quadratisch, Motiv zentriert, transparenter
+Hintergrund), sonst ggf. `.brand-logo`-Maße in der CSS anpassen.
 
 Zusätzlich liegen zwei eigenständige Logo-Dateien für andere Zwecke
 (E-Mail-Signatur, Social Media, Print) bereit:
