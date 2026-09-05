@@ -71,6 +71,8 @@ const translations = {
     "about.fact2_label": "Drucker:",
     "about.fact2_value": "Bambu Lab H2D (FDM) mit AMS 2 Pro &amp; AMS HT",
     "about.fact3_label": "Materialien:",
+    "about.fact4_label": "Bauraum:",
+    "about.fact4_value": "350 × 320 × 325 mm",
 
     "order.eyebrow": "Individueller Auftrag",
     "order.title": "Projekt anfragen",
@@ -171,6 +173,8 @@ const translations = {
     "about.fact2_label": "Printer:",
     "about.fact2_value": "Bambu Lab H2D (FDM) with AMS 2 Pro &amp; AMS HT",
     "about.fact3_label": "Materials:",
+    "about.fact4_label": "Build volume:",
+    "about.fact4_value": "350 × 320 × 325 mm",
 
     "order.eyebrow": "Custom project",
     "order.title": "Request a project",
