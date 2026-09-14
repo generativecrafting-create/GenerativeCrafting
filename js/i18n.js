@@ -28,10 +28,10 @@ const translations = {
     "portfolio.item3.tag2": "Personalisiert",
     "portfolio.item3.desc": "Nach Kundenwunsch entworfenes Unikat als Geschenkidee.",
 
-    "portfolio.item4.title": "Miniaturen-Serie",
-    "portfolio.item4.tag1": "PLA",
-    "portfolio.item4.tag2": "Kleinserie",
-    "portfolio.item4.desc": "Mehrfarbige Miniaturen dank AMS in kleiner Stückzahl gefertigt.",
+    "portfolio.item4.title": "Logo-Wandschild",
+    "portfolio.item4.tag1": "PETG",
+    "portfolio.item4.tag2": "Eigenproduktion",
+    "portfolio.item4.desc": "Das eigene Markenzeichen als reales Objekt: Hexagon-Icon und Schriftzug erhaben auf Holz montiert – Konstruktion, die vom Bildschirm auf die Werkstattwand wandert.",
 
     "portfolio.item5.title": "Rollladen-Abdeckplatte",
     "portfolio.item5.tag1": "ASA",
@@ -130,10 +130,10 @@ const translations = {
     "portfolio.item3.tag2": "Personalized",
     "portfolio.item3.desc": "One-of-a-kind piece designed to the customer's request.",
 
-    "portfolio.item4.title": "Miniature series",
-    "portfolio.item4.tag1": "PLA",
-    "portfolio.item4.tag2": "Small batch",
-    "portfolio.item4.desc": "Multicolor miniatures made possible by the AMS, produced in a small batch.",
+    "portfolio.item4.title": "Logo wall sign",
+    "portfolio.item4.tag1": "PETG",
+    "portfolio.item4.tag2": "In-house",
+    "portfolio.item4.desc": "The brand mark itself as a physical object: hexagon icon and lettering mounted in relief on wood — a design that moves from screen to workshop wall.",
 
     "portfolio.item5.title": "Roller shutter cover plate",
     "portfolio.item5.tag1": "ASA",
