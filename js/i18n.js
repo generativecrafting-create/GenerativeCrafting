@@ -25,15 +25,6 @@ const translations = {
     "services.item4.title": "Einzelanfertigung & Kleinserie",
     "services.item4.desc": "Vom individuellen Einzelteil bis zur reproduzierbaren Kleinserie — bedarfsgerecht gefertigt.",
 
-    "cap.item1_value": "Von der Idee bis zum Bauteil",
-    "cap.item1_label": "Konstruktion und Fertigung",
-    "cap.item2_value": "Für reale Anwendungen",
-    "cap.item2_label": "Funktionale Bauteile",
-    "cap.item3_value": "Individuell abgestimmt",
-    "cap.item3_label": "Geometrie und Werkstoff",
-    "cap.item4_value": "Persönlich umgesetzt",
-    "cap.item4_label": "Direkter Ansprechpartner",
-
     "portfolio.eyebrow": "Ausgewählte Arbeiten",
     "portfolio.title": "Portfolio",
     "portfolio.lead": "Eine Auswahl umgesetzter Projekte — technisch anspruchsvoll gedacht, präzise gedruckt.",
@@ -144,15 +135,6 @@ const translations = {
     "services.item3.desc": "Functional parts in suitable technical plastics — matched to geometry and application.",
     "services.item4.title": "One-off parts & small batches",
     "services.item4.desc": "From a single custom part to a reproducible small batch — manufactured to your needs.",
-
-    "cap.item1_value": "From idea to part",
-    "cap.item1_label": "Design and manufacturing",
-    "cap.item2_value": "For real-world use",
-    "cap.item2_label": "Functional parts",
-    "cap.item3_value": "Individually matched",
-    "cap.item3_label": "Geometry and material",
-    "cap.item4_value": "Personally handled",
-    "cap.item4_label": "Direct point of contact",
 
     "portfolio.eyebrow": "Selected work",
     "portfolio.title": "Portfolio",
