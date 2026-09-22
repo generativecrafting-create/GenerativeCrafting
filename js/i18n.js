@@ -7,9 +7,9 @@ const translations = {
     "nav.order": "Auftrag anfragen",
     "nav.contact": "Kontakt",
 
-    "hero.eyebrow": "3D-Druck Studio",
-    "hero.title": "Von der digitalen Idee<br>zum physischen Objekt.",
-    "hero.sub": "Generative Crafting entwirft und druckt individuelle Objekte — Prototypen, Deko, Bauteile und Sonderanfertigungen. Präzise gefertigt, Schicht für Schicht.",
+    "hero.eyebrow": "Konstruktion &amp; 3D-Druck",
+    "hero.title": "Individuelle Lösungen.<br>Konstruiert und gefertigt.",
+    "hero.sub": "Von der Idee bis zum fertigen Bauteil: Generative Crafting entwickelt und fertigt individuelle Sonderlösungen für Unternehmen und Privatpersonen – als Einzelanfertigung oder Kleinserie.",
     "hero.cta_portfolio": "Portfolio ansehen",
     "hero.cta_order": "Individuellen Auftrag anfragen",
 
@@ -109,9 +109,9 @@ const translations = {
     "nav.order": "Request a project",
     "nav.contact": "Contact",
 
-    "hero.eyebrow": "3D Printing Studio",
-    "hero.title": "From digital idea<br>to physical object.",
-    "hero.sub": "Generative Crafting designs and prints custom objects — prototypes, decor, components and one-off commissions. Precision-made, layer by layer.",
+    "hero.eyebrow": "Engineering &amp; 3D Printing",
+    "hero.title": "Custom solutions.<br>Engineered and manufactured.",
+    "hero.sub": "From idea to finished part: Generative Crafting designs and manufactures custom solutions for businesses and individuals — as a one-off piece or small batch.",
     "hero.cta_portfolio": "View portfolio",
     "hero.cta_order": "Request a custom project",
 
