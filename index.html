@@ -33,6 +33,7 @@
     </a>
 
     <nav class="main-nav" id="main-nav">
+      <a href="#services" data-i18n="nav.services">Leistungen</a>
       <a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a>
       <a href="#process" data-i18n="nav.process">Prozess</a>
       <a href="#about" data-i18n="nav.about">Über mich</a>
@@ -84,24 +85,50 @@
     </div>
   </section>
 
+  <!-- SERVICES -->
+  <section id="services" class="section services-section">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="services.eyebrow">Leistungen</p>
+      <h2 data-i18n="services.title">Wie ich dich unterstütze</h2>
+      <div class="services-grid">
+        <div class="service-item">
+          <h3 data-i18n="services.item1.title">CAD-Konstruktion</h3>
+          <p data-i18n="services.item1.desc">Ich konstruiere dein Bauteil von Grund auf — auch ohne vorhandene 3D-Datei.</p>
+        </div>
+        <div class="service-item">
+          <h3 data-i18n="services.item2.title">Reverse Engineering</h3>
+          <p data-i18n="services.item2.desc">Beschädigte oder nicht mehr erhältliche Teile werden vermessen und passgenau nachkonstruiert.</p>
+        </div>
+        <div class="service-item">
+          <h3 data-i18n="services.item3.title">3D-Druck &amp; Fertigung</h3>
+          <p data-i18n="services.item3.desc">Fertigung in technischen Kunststoffen — vom Prototyp bis zum belastbaren Funktionsteil.</p>
+        </div>
+        <div class="service-item">
+          <h3 data-i18n="services.item4.title">Einzelteile &amp; Kleinserien</h3>
+          <p data-i18n="services.item4.desc">Ob Unikat oder mehrere Stück — Fertigung passend zu deinem Bedarf.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- STATS / CAPABILITIES -->
   <section class="capabilities">
     <div class="container capabilities-grid">
       <div class="cap-item">
-        <span class="cap-value">±0.1mm</span>
-        <span class="cap-label" data-i18n="cap.precision">Präzision</span>
+        <span class="cap-value">CAD → Fertigteil</span>
+        <span class="cap-label" data-i18n="cap.process">Prozess</span>
       </div>
       <div class="cap-item">
-        <span class="cap-value">FDM</span>
-        <span class="cap-label" data-i18n="cap.tech">Drucktechnologien</span>
-      </div>
-      <div class="cap-item">
-        <span class="cap-value">PLA · PETG · ASA · PA-CF</span>
+        <span class="cap-value">Technische Kunststoffe</span>
         <span class="cap-label" data-i18n="cap.materials">Materialien</span>
       </div>
       <div class="cap-item">
-        <span class="cap-value">1–500+</span>
-        <span class="cap-label" data-i18n="cap.batch">Stückzahl (Unikat bis Kleinserie)</span>
+        <span class="cap-value">Einzelteil – Kleinserie</span>
+        <span class="cap-label" data-i18n="cap.batch">Stückzahl</span>
+      </div>
+      <div class="cap-item">
+        <span class="cap-value">350 × 320 × 325 mm</span>
+        <span class="cap-label" data-i18n="cap.volume">Bauraum</span>
       </div>
     </div>
   </section>
@@ -142,15 +169,6 @@
           <h3 data-i18n="portfolio.item7.title">Kappsägen-Klemme</h3>
           <p class="tag-row"><span class="tag" data-i18n="portfolio.item7.tag1">PA-CF</span><span class="tag" data-i18n="portfolio.item7.tag2">Verstärkte Konstruktion</span></p>
           <p data-i18n="portfolio.item7.desc">Eine bruchanfällige Original-Klemme wurde nachgebaut und mit PA-CF verstärkt für deutlich höhere Belastbarkeit.</p>
-        </article>
-
-        <article class="portfolio-card">
-          <div class="portfolio-thumb thumb-5">
-            <span class="thumb-badge" data-i18n="placeholder.photo">Foto folgt</span>
-          </div>
-          <h3 data-i18n="portfolio.item3.title">Individuelles Geschenk</h3>
-          <p class="tag-row"><span class="tag" data-i18n="portfolio.item3.tag1">Multicolor</span><span class="tag" data-i18n="portfolio.item3.tag2">Personalisiert</span></p>
-          <p data-i18n="portfolio.item3.desc">Nach Kundenwunsch entworfenes Unikat als Geschenkidee.</p>
         </article>
 
         <article class="portfolio-card">
@@ -204,25 +222,13 @@
         <p class="section-eyebrow" data-i18n="about.eyebrow">Über mich</p>
         <h2 data-i18n="about.title">Generative Crafting</h2>
         <p class="about-tagline" data-i18n="about.tagline">Individuell entwickelt. Präzise gefertigt.</p>
+        <p class="about-credential" data-i18n="about.credential">Claudio Grenner, B.Eng. — Maschinenbau | Feinwerkmechanik | CAD &amp; additive Fertigung</p>
         <p data-i18n="about.p1">
-          Generative Crafting steht für technisch orientierten 3D-Druck und individuelle
-          Sonderanfertigungen nach Kundenwunsch.
+          Generative Crafting verbindet Maschinenbau, Feinwerkmechanik und industrielle Praxis
+          mit moderner additiver Fertigung. Von der ersten Idee oder vorhandenen CAD-Daten bis
+          zum fertigen Bauteil entstehen technisch durchdachte Einzelstücke und Kleinserien —
+          für Unternehmen ebenso wie für Privatpersonen.
         </p>
-        <p data-i18n="about.p2">
-          Im Fokus stehen maßgeschneiderte Modelle, Einzelstücke und speziell angepasste
-          Geometrien, die digital entwickelt und mittels additiver Fertigung umgesetzt werden.
-          Von der ersten Idee oder vorhandenen CAD-Daten bis zum fertigen Modell liegt der
-          Schwerpunkt auf einer technisch sauberen Konstruktion, sinnvoll gewählten
-          Fertigungsparametern und einer hochwertigen Umsetzung.
-        </p>
-        <p data-i18n="about.p3">
-          Durch den Hintergrund in Maschinenbau, Feinwerkmechanik und industrieller Praxis
-          verbindet Generative Crafting konstruktives Verständnis mit moderner
-          Fertigungstechnologie. So entstehen individuelle Lösungen für besondere
-          Anforderungen, komplexe Geometrien und kundenspezifische Anwendungen, die sich mit
-          klassischen Fertigungsverfahren oft nur mit deutlich höherem Aufwand realisieren lassen.
-        </p>
-        <p class="about-tagline" data-i18n="about.closing">Generative Crafting – Sonderanfertigungen aus dem 3D-Druck. Technisch gedacht. Individuell umgesetzt.</p>
         <ul class="about-facts">
           <li><strong data-i18n="about.fact1_label">Standort:</strong> <span data-i18n="about.fact1_value">2011 Sierndorf, Österreich</span></li>
           <li><strong data-i18n="about.fact2_label">Drucker:</strong> <span data-i18n="about.fact2_value">Bambu Lab H2D (FDM) mit AMS 2 Pro &amp; AMS HT</span></li>
@@ -252,6 +258,12 @@
         2–3 Werktagen mit einer Einschätzung zurück.
       </p>
 
+      <ul class="trust-list">
+        <li data-i18n="order.trust1">Persönliche Projektprüfung</li>
+        <li data-i18n="order.trust2">Konstruktion &amp; Fertigung aus einer Hand</li>
+        <li data-i18n="order.trust3">Klare Kosten vor Fertigungsbeginn</li>
+      </ul>
+
       <form id="order-form" class="order-form" action="https://formspree.io/f/mvkozeee" method="POST" enctype="multipart/form-data">
         <div class="form-row">
           <div class="form-field">
@@ -276,7 +288,14 @@
           </div>
           <div class="form-field">
             <label for="budget" data-i18n="order.form.budget">Budget (optional)</label>
-            <input type="text" id="budget" name="budget" placeholder="z.B. 20–50 €">
+            <select id="budget" name="budget">
+              <option value="" data-i18n="order.form.budget_placeholder">Bitte wählen</option>
+              <option data-i18n="order.form.budget_1">&lt; 100 €</option>
+              <option data-i18n="order.form.budget_2">100–250 €</option>
+              <option data-i18n="order.form.budget_3">250–500 €</option>
+              <option data-i18n="order.form.budget_4">500 €+</option>
+              <option data-i18n="order.form.budget_5">Noch offen</option>
+            </select>
           </div>
         </div>
 
