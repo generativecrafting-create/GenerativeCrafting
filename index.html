@@ -3,8 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Generative Crafting — 3D-Druck nach Maß</title>
-<meta name="description" content="Generative Crafting: individueller 3D-Druck, Prototypen, Deko und Kleinserien. Von der Idee zum fertigen Teil.">
+<title>Konstruktion &amp; 3D-Druck | Generative Crafting</title>
+<meta name="description" content="Generative Crafting konstruiert und fertigt individuelle Anschauungs- und Präsentationsmodelle nach Skizzen, Daten, Maßen oder bestehenden Vorlagen.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://generative-crafting.at/">
+<meta property="og:site_name" content="Generative Crafting">
+<meta property="og:locale" content="de_AT">
+<meta property="og:title" content="Generative Crafting — Konstruktion &amp; 3D-Druck">
+<meta property="og:description" content="Konstruktion und additive Fertigung individueller Anschauungs- und Präsentationsmodelle nach Skizzen, Daten, Maßen oder bestehenden Vorlagen.">
+<meta property="og:image" content="https://generative-crafting.at/assets/img/logo-icon.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Generative Crafting — Konstruktion &amp; 3D-Druck">
+<meta name="twitter:description" content="Konstruktion und additive Fertigung individueller Anschauungs- und Präsentationsmodelle nach Skizzen, Daten, Maßen oder bestehenden Vorlagen.">
+<meta name="twitter:image" content="https://generative-crafting.at/assets/img/logo-icon.png">
 <link rel="canonical" href="https://generative-crafting.at/">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
@@ -19,6 +30,25 @@
     var theme = stored || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
     document.documentElement.setAttribute("data-theme", theme);
   })();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Generative Crafting",
+  "image": "https://generative-crafting.at/assets/img/logo-icon.png",
+  "url": "https://generative-crafting.at/",
+  "email": "info@generative-crafting.at",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Hauptstraße 46",
+    "postalCode": "2011",
+    "addressLocality": "Unterhautzental",
+    "addressCountry": "AT"
+  },
+  "description": "Konstruktion und additive Fertigung individueller Anschauungs- und Präsentationsmodelle nach Skizzen, Daten, Maßen oder bestehenden Vorlagen.",
+  "sameAs": ["https://www.instagram.com/generativecrafting/"]
+}
 </script>
 </head>
 <body>
@@ -35,9 +65,9 @@
     <nav class="main-nav" id="main-nav">
       <a href="#services" data-i18n="nav.services">Leistungen</a>
       <a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a>
-      <a href="#process" data-i18n="nav.process">Prozess</a>
+      <a href="#process" data-i18n="nav.process">Ablauf</a>
       <a href="#about" data-i18n="nav.about">Über mich</a>
-      <a href="#order" data-i18n="nav.order">Auftrag anfragen</a>
+      <a href="#order" data-i18n="nav.order">Modell anfragen</a>
       <a href="#contact" data-i18n="nav.contact">Kontakt</a>
     </nav>
 
@@ -62,15 +92,15 @@
   <section class="hero">
     <div class="container hero-inner">
       <p class="eyebrow" data-i18n="hero.eyebrow">Konstruktion &amp; 3D-Druck</p>
-      <h1 data-i18n="hero.title">Individuelle Lösungen.<br>Konstruiert und gefertigt.</h1>
+      <h1 data-i18n="hero.title">Individuelle Modelle.<br>Konstruiert und gefertigt.</h1>
       <p class="hero-sub" data-i18n="hero.sub">
-        Von der Idee bis zum fertigen Bauteil: Generative Crafting entwickelt und fertigt
-        individuelle Sonderlösungen für Unternehmen und Privatpersonen – als Einzelanfertigung
-        oder Kleinserie.
+        Von der Idee bis zum physischen Modell: Generative Crafting konstruiert und fertigt
+        individuelle Modelle für Anschauungs- und Präsentationszwecke – für Unternehmen und
+        Privatpersonen.
       </p>
       <div class="hero-cta">
-        <a href="#portfolio" class="btn btn-primary" data-i18n="hero.cta_portfolio">Portfolio ansehen</a>
-        <a href="#order" class="btn btn-outline" data-i18n="hero.cta_order">Individuellen Auftrag anfragen</a>
+        <a href="#order" class="btn btn-primary" data-i18n="hero.cta_order">Modell anfragen</a>
+        <a href="#portfolio" class="btn btn-outline" data-i18n="hero.cta_portfolio">Portfolio ansehen</a>
       </div>
     </div>
     <div class="hero-visual" aria-hidden="true">
@@ -89,24 +119,46 @@
   <section id="services" class="section services-section">
     <div class="container">
       <p class="section-eyebrow" data-i18n="services.eyebrow">Leistungen</p>
-      <h2 data-i18n="services.title">Technische Lösungen aus einer Hand</h2>
+      <h2 data-i18n="services.title">Von der Konstruktion zum physischen Modell</h2>
       <div class="services-grid">
         <div class="service-item">
-          <h3 data-i18n="services.item1.title">CAD-Konstruktion</h3>
-          <p data-i18n="services.item1.desc">Individuelle Bauteile und technische Lösungen — neu entwickelt oder nach deinen Anforderungen konstruiert.</p>
+          <h3 data-i18n="services.item1.title">Konstruktion</h3>
+          <p data-i18n="services.item1.desc">Individuelle 3D-Modelle nach Skizzen, Maßen, vorhandenen Daten oder konkreten Vorlagen — abgestimmt auf den jeweiligen Anschauungs- oder Präsentationszweck.</p>
         </div>
         <div class="service-item">
-          <h3 data-i18n="services.item2.title">Reverse Engineering</h3>
-          <p data-i18n="services.item2.desc">Vorhandene, beschädigte oder nicht mehr erhältliche Bauteile werden erfasst und digital nachkonstruiert.</p>
+          <h3 data-i18n="services.item2.title">Nachkonstruktion</h3>
+          <p data-i18n="services.item2.desc">Vorhandene Gegenstände werden vermessen und als digitales Modell für Anschauungs- und Präsentationszwecke nachgebildet.</p>
         </div>
         <div class="service-item">
-          <h3 data-i18n="services.item3.title">3D-Druck &amp; Fertigung</h3>
-          <p data-i18n="services.item3.desc">Funktionale Bauteile aus geeigneten technischen Kunststoffen — abgestimmt auf Geometrie und Anwendung.</p>
+          <h3 data-i18n="services.item3.title">3D-Druck</h3>
+          <p data-i18n="services.item3.desc">Digitale Modelle werden im FDM-Verfahren additiv gefertigt und als physische Anschauungs- oder Präsentationsmodelle umgesetzt.</p>
         </div>
         <div class="service-item">
-          <h3 data-i18n="services.item4.title">Einzelanfertigung &amp; Kleinserie</h3>
-          <p data-i18n="services.item4.desc">Vom individuellen Einzelteil bis zur reproduzierbaren Kleinserie — bedarfsgerecht gefertigt.</p>
+          <h3 data-i18n="services.item4.title">Einzelmodelle &amp; Modellserien</h3>
+          <p data-i18n="services.item4.desc">Vom individuell gefertigten Einzelmodell bis zu mehreren identischen Exemplaren für Präsentation, Vergleich oder Demonstration.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INFO STRIP -->
+  <section class="info-strip">
+    <div class="container info-grid">
+      <div class="info-item">
+        <span class="info-item-title" data-i18n="info.item1_title">Konstruktion → Modell</span>
+        <span class="info-item-desc" data-i18n="info.item1_desc">Vom digitalen Entwurf zum physischen Objekt</span>
+      </div>
+      <div class="info-item">
+        <span class="info-item-title" data-i18n="info.item2_title">Individuell erstellt</span>
+        <span class="info-item-desc" data-i18n="info.item2_desc">Nach Skizze, Maßen, Daten oder Vorlage</span>
+      </div>
+      <div class="info-item">
+        <span class="info-item-title" data-i18n="info.item3_title">Einzelmodell → Modellserie</span>
+        <span class="info-item-desc" data-i18n="info.item3_desc">Flexibel nach Projektbedarf</span>
+      </div>
+      <div class="info-item">
+        <span class="info-item-title" data-i18n="info.item4_title">FDM-Fertigung</span>
+        <span class="info-item-desc" data-i18n="info.item4_desc">bis 350 × 320 × 325 mm</span>
       </div>
     </div>
   </section>
@@ -117,45 +169,18 @@
       <p class="section-eyebrow" data-i18n="portfolio.eyebrow">Ausgewählte Arbeiten</p>
       <h2 data-i18n="portfolio.title">Portfolio</h2>
       <p class="section-lead" data-i18n="portfolio.lead">
-        Eine Auswahl umgesetzter Projekte — technisch anspruchsvoll gedacht, präzise gedruckt.
+        Eine Auswahl individuell konstruierter und gefertigter Modelle für Anschauung, Präsentation und Visualisierung.
       </p>
 
       <div class="portfolio-grid">
 
         <article class="portfolio-card">
           <div class="portfolio-thumb">
-            <img src="assets/img/portfolio-rollladen-abdeckung.jpg" alt="3D-gedruckte Rollladen-Abdeckplatte neben dem vergilbten Original">
-          </div>
-          <h3 data-i18n="portfolio.item5.title">Rollladen-Abdeckplatte</h3>
-          <p class="tag-row"><span class="tag" data-i18n="portfolio.item5.tag1">ASA</span><span class="tag" data-i18n="portfolio.item5.tag2">Reverse Engineering</span></p>
-          <p data-i18n="portfolio.item5.desc">Ein beschädigter Rollladenkasten-Deckel wurde vermessen, in CAD rekonstruiert und maßgetreu nachgedruckt.</p>
-        </article>
-
-        <article class="portfolio-card">
-          <div class="portfolio-thumb">
-            <img src="assets/img/portfolio-zierleiste-clip.jpg" alt="3D-gedruckter Zierleisten-Clip neben dem abgenutzten Original, aus PETG">
-          </div>
-          <h3 data-i18n="portfolio.item6.title">Zierleisten-Clip</h3>
-          <p class="tag-row"><span class="tag" data-i18n="portfolio.item6.tag1">PETG</span><span class="tag" data-i18n="portfolio.item6.tag2">Reverse Engineering</span></p>
-          <p data-i18n="portfolio.item6.desc">Ein abgenutzter Zierleisten-Clip aus dem Fahrzeugbau wurde vermessen, in CAD nachkonstruiert und passgenau in PETG nachgedruckt.</p>
-        </article>
-
-        <article class="portfolio-card">
-          <div class="portfolio-thumb">
-            <img src="assets/img/portfolio-kappsaege-klemme.jpg" alt="Verstärkte Klemme für eine Kappsäge, gedruckt in PA-CF">
-          </div>
-          <h3 data-i18n="portfolio.item7.title">Kappsägen-Klemme</h3>
-          <p class="tag-row"><span class="tag" data-i18n="portfolio.item7.tag1">PA-CF</span><span class="tag" data-i18n="portfolio.item7.tag2">Verstärkte Konstruktion</span></p>
-          <p data-i18n="portfolio.item7.desc">Eine bruchanfällige Original-Klemme wurde nachgebaut und mit PA-CF verstärkt für deutlich höhere Belastbarkeit.</p>
-        </article>
-
-        <article class="portfolio-card">
-          <div class="portfolio-thumb">
-            <img src="assets/img/portfolio-wandlogo.jpg" alt="Generative Crafting Firmenlogo als Wandschild, Hexagon-Icon und Schriftzug erhaben auf Holz montiert">
+            <img src="assets/img/portfolio-wandlogo.jpg" alt="Individuell gefertigtes Logo-Wandschild als Präsentationsobjekt, Hexagon-Icon und Schriftzug erhaben auf Holz montiert">
           </div>
           <h3 data-i18n="portfolio.item4.title">Logo-Wandschild</h3>
-          <p class="tag-row"><span class="tag" data-i18n="portfolio.item4.tag1">PETG</span><span class="tag" data-i18n="portfolio.item4.tag2">Eigenproduktion</span></p>
-          <p data-i18n="portfolio.item4.desc">Das eigene Markenzeichen als reales Objekt: Hexagon-Icon und Schriftzug erhaben auf Holz montiert – Konstruktion, die vom Bildschirm auf die Werkstattwand wandert.</p>
+          <p class="tag-row"><span class="tag" data-i18n="portfolio.item4.tag1">PETG</span><span class="tag" data-i18n="portfolio.item4.tag2">3D-Druck</span><span class="tag" data-i18n="portfolio.item4.tag3">Präsentationsobjekt</span></p>
+          <p data-i18n="portfolio.item4.desc">Individuell gefertigtes Logo-Wandschild als physisches Präsentationsobjekt. Konstruktion, Schriftzug und Geometrie wurden für die additive Fertigung vorbereitet und anschließend mehrfarbig umgesetzt.</p>
         </article>
 
       </div>
@@ -166,28 +191,28 @@
   <section id="process" class="section section-alt">
     <div class="container">
       <p class="section-eyebrow" data-i18n="process.eyebrow">Ablauf</p>
-      <h2 data-i18n="process.title">So läuft dein Auftrag</h2>
+      <h2 data-i18n="process.title">So entsteht dein Modell</h2>
 
       <ol class="process-list">
         <li>
           <span class="process-num">01</span>
-          <h3 data-i18n="process.step1.title">Anfrage &amp; Beratung</h3>
-          <p data-i18n="process.step1.desc">Du beschreibst dein Projekt (oder schickst ein Modell) — ich prüfe Machbarkeit, Material und Zeitrahmen.</p>
+          <h3 data-i18n="process.step1.title">Anfrage &amp; Abstimmung</h3>
+          <p data-i18n="process.step1.desc">Du beschreibst dein Vorhaben und übermittelst vorhandene Skizzen, Maße, Bilder oder 3D-Daten.</p>
         </li>
         <li>
           <span class="process-num">02</span>
-          <h3 data-i18n="process.step2.title">Design &amp; Angebot</h3>
-          <p data-i18n="process.step2.desc">Bei Bedarf konstruiere ich das Modell (CAD) und du erhältst ein verbindliches Angebot.</p>
+          <h3 data-i18n="process.step2.title">Konstruktion &amp; Angebot</h3>
+          <p data-i18n="process.step2.desc">Auf Basis deiner Angaben wird der benötigte Konstruktions- und Fertigungsumfang abgestimmt und ein unverbindliches Angebot erstellt.</p>
         </li>
         <li>
           <span class="process-num">03</span>
-          <h3 data-i18n="process.step3.title">Druck &amp; Fertigung</h3>
-          <p data-i18n="process.step3.desc">Slicing, Materialwahl und Druck auf FDM-Anlagen — mit laufender Qualitätskontrolle.</p>
+          <h3 data-i18n="process.step3.title">3D-Druck &amp; Prüfung</h3>
+          <p data-i18n="process.step3.desc">Nach deiner Freigabe wird das Modell additiv gefertigt und anschließend geprüft.</p>
         </li>
         <li>
           <span class="process-num">04</span>
           <h3 data-i18n="process.step4.title">Nachbearbeitung &amp; Versand</h3>
-          <p data-i18n="process.step4.desc">Entfernen der Stützstrukturen, Schleifen, ggf. Lackieren — dann Versand oder Abholung.</p>
+          <p data-i18n="process.step4.desc">Je nach Projekt erfolgt die vereinbarte Nachbearbeitung. Anschließend wird das fertige Modell versendet oder übergeben.</p>
         </li>
       </ol>
     </div>
@@ -200,21 +225,28 @@
         <p class="section-eyebrow" data-i18n="about.eyebrow">Über mich</p>
         <h2 data-i18n="about.title">Generative Crafting</h2>
         <p class="about-tagline" data-i18n="about.tagline">Individuell entwickelt. Präzise gefertigt.</p>
-        <div class="about-credential">
-          <p class="about-credential-name" data-i18n="about.credential_name">Claudio Grenner, B.Eng.</p>
-          <p class="about-credential-role" data-i18n="about.credential_role">Maschinenbau · Feinwerkmechanik · CAD · Additive Fertigung</p>
-        </div>
+        <p class="about-credential-name" data-i18n="about.credential_name">Claudio Grenner, B.Eng.</p>
+        <ul class="about-tags">
+          <li class="about-tag" data-i18n="about.tag1">Maschinenbau</li>
+          <li class="about-tag" data-i18n="about.tag2">Feinwerkmechanik</li>
+          <li class="about-tag" data-i18n="about.tag3">CAD</li>
+          <li class="about-tag" data-i18n="about.tag4">Additive Fertigung</li>
+        </ul>
         <p data-i18n="about.p1">
-          Generative Crafting verbindet Maschinenbau, Feinwerkmechanik und industrielle Praxis
-          mit moderner additiver Fertigung. Von der ersten Idee oder vorhandenen CAD-Daten bis
-          zum fertigen Bauteil entstehen technisch durchdachte Einzelstücke und Kleinserien —
-          für Unternehmen ebenso wie für Privatpersonen.
+          Generative Crafting verbindet Erfahrung aus Maschinenbau und Feinwerkmechanik mit
+          moderner Konstruktion und additiver Fertigung. So entstehen individuelle Anschauungs-
+          und Präsentationsmodelle, mit denen Ideen, Formen und technische Konzepte physisch
+          greifbar werden.
+        </p>
+        <p data-i18n="about.p2">
+          Von der ersten Skizze über das digitale Modell bis zum physischen Anschauungsobjekt
+          erfolgt die Umsetzung persönlich und projektbezogen.
         </p>
         <ul class="about-facts">
           <li><strong data-i18n="about.fact1_label">Standort:</strong> <span data-i18n="about.fact1_value">2011 Sierndorf, Österreich</span></li>
-          <li><strong data-i18n="about.fact2_label">Drucker:</strong> <span data-i18n="about.fact2_value">Bambu Lab H2D (FDM) mit AMS 2 Pro &amp; AMS HT</span></li>
+          <li><strong data-i18n="about.fact2_label">Fertigungssystem:</strong> <span data-i18n="about.fact2_value">Bambu Lab H2D · FDM</span></li>
           <li><strong data-i18n="about.fact4_label">Bauraum:</strong> <span data-i18n="about.fact4_value">350 × 320 × 325 mm</span></li>
-          <li><strong data-i18n="about.fact3_label">Materialien:</strong> <span>PLA, PETG, ASA, PA-CF</span></li>
+          <li><strong data-i18n="about.fact3_label">Werkstoffe:</strong> <span data-i18n="about.fact3_value">PLA · PETG · ASA · PA-CF</span></li>
         </ul>
       </div>
       <div class="about-visual" aria-hidden="true">
@@ -231,12 +263,12 @@
   <!-- ORDER FORM -->
   <section id="order" class="section section-alt">
     <div class="container">
-      <p class="section-eyebrow" data-i18n="order.eyebrow">Individueller Auftrag</p>
-      <h2 data-i18n="order.title">Projekt anfragen</h2>
+      <p class="section-eyebrow" data-i18n="order.eyebrow">Individuelles Modell</p>
+      <h2 data-i18n="order.title">Modell anfragen</h2>
       <p class="section-lead" data-i18n="order.lead">
-        Beschreibe dein Vorhaben so genau wie möglich. Du kannst optional Referenzbilder
-        oder eine Modelldatei (z.B. STL) anhängen. Ich melde mich in der Regel innerhalb von
-        2–3 Werktagen mit einer Einschätzung zurück.
+        Beschreibe dein gewünschtes Modell so genau wie möglich. Du kannst optional
+        Referenzbilder, Skizzen, Maße oder vorhandene 3D-Daten anhängen. Ich melde mich
+        anschließend persönlich mit einer ersten Einschätzung zurück.
       </p>
 
       <ul class="trust-list">
@@ -261,9 +293,12 @@
           <div class="form-field">
             <label for="project_type" data-i18n="order.form.type">Projektart</label>
             <select id="project_type" name="project_type">
-              <option data-i18n="order.form.type_prototype">Prototyp</option>
-              <option data-i18n="order.form.type_deco">Deko / Geschenk</option>
-              <option data-i18n="order.form.type_part">Bauteil</option>
+              <option data-i18n="order.form.type_display">Anschauungsmodell</option>
+              <option data-i18n="order.form.type_presentation">Präsentationsmodell</option>
+              <option data-i18n="order.form.type_product">Produkt-/Designmodell</option>
+              <option data-i18n="order.form.type_architecture">Architekturmodell</option>
+              <option data-i18n="order.form.type_template">Modell nach Vorlage</option>
+              <option data-i18n="order.form.type_series">Modellserie</option>
               <option data-i18n="order.form.type_other">Sonstiges</option>
             </select>
           </div>
@@ -271,11 +306,12 @@
             <label for="budget" data-i18n="order.form.budget">Budget (optional)</label>
             <select id="budget" name="budget">
               <option value="" data-i18n="order.form.budget_placeholder">Bitte wählen</option>
-              <option data-i18n="order.form.budget_1">&lt; 100 €</option>
+              <option data-i18n="order.form.budget_1">unter 100 €</option>
               <option data-i18n="order.form.budget_2">100–250 €</option>
               <option data-i18n="order.form.budget_3">250–500 €</option>
-              <option data-i18n="order.form.budget_4">500 €+</option>
-              <option data-i18n="order.form.budget_5">Noch offen</option>
+              <option data-i18n="order.form.budget_4">500–1.000 €</option>
+              <option data-i18n="order.form.budget_5">über 1.000 €</option>
+              <option data-i18n="order.form.budget_6">Noch offen</option>
             </select>
           </div>
         </div>
@@ -289,6 +325,12 @@
           <label for="attachment" data-i18n="order.form.attachment">Referenzbild / Modelldatei (optional)</label>
           <input type="file" id="attachment" name="attachment">
         </div>
+
+        <p class="form-scope-note" data-i18n="order.form.scope_note">
+          Generative Crafting fertigt Modelle für Anschauungs- und Präsentationszwecke. Bauteile
+          für den funktionalen oder sicherheitsrelevanten Einsatz sind nicht Bestandteil des
+          angebotenen Leistungsumfangs.
+        </p>
 
         <button type="submit" class="btn btn-primary" data-i18n="order.form.submit">Anfrage senden</button>
 
@@ -306,7 +348,7 @@
       <div>
         <p class="section-eyebrow" data-i18n="contact.eyebrow">Kontakt</p>
         <h2 data-i18n="contact.title">Direkt Kontakt aufnehmen</h2>
-        <p data-i18n="contact.lead">Lieber direkt schreiben statt Formular? Kein Problem.</p>
+        <p data-i18n="contact.lead">Du bist dir nicht sicher, ob dein Vorhaben zum Leistungsumfang passt? Schreib mir kurz, was du umsetzen möchtest.</p>
         <ul class="contact-list">
           <li>
             <span class="contact-label" data-i18n="contact.email_label">E-Mail</span>
@@ -326,7 +368,7 @@
 <footer class="site-footer">
   <div class="container footer-inner">
     <span>&copy; <span id="year"></span> Generative Crafting</span>
-    <span class="footer-note" data-i18n="footer.note">Individueller 3D-Druck &amp; generatives Design</span>
+    <span class="footer-note" data-i18n="footer.note">Konstruktion &amp; 3D-Druck</span>
     <a href="impressum.html">Impressum</a>
   </div>
 </footer>
